@@ -1,0 +1,62 @@
+$date
+	Sat Oct 05 02:09:38 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module write_decoder_4_16_tb $end
+$scope module idut $end
+$var wire 4 ! reg_id [3:0] $end
+$var wire 1 " write_reg $end
+$var wire 16 # wordline [15:0] $end
+$var wire 16 $ temp [15:0] $end
+$scope module d0 $end
+$var wire 3 % A [2:0] $end
+$var wire 1 & En $end
+$var wire 8 ' D [7:0] $end
+$upscope $end
+$scope module d1 $end
+$var wire 3 ( A [2:0] $end
+$var wire 1 ) En $end
+$var wire 8 * D [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 *
+1)
+b0 (
+b0 '
+0&
+b0 %
+b1 $
+b1 #
+1"
+b0 !
+$end
+#15
+b0 *
+b100000000 $
+b1 '
+0)
+1&
+b0 #
+b1000 !
+0"
+#30
+b10000000000 $
+b100 '
+b10 %
+b10 (
+b10000000000 #
+b1010 !
+1"
+#45

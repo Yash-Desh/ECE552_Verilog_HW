@@ -1,0 +1,33 @@
+$date
+	Sat Oct 05 01:22:28 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_3_8_tb $end
+$scope module idut $end
+$var wire 3 ! A [2:0] $end
+$var wire 1 " En $end
+$var wire 8 # D [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 #
+1"
+b0 !
+$end
+#15
+b10 #
+b1 !
+#30
+b100 #
+b10 !
+#45
